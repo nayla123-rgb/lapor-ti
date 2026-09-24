@@ -1,0 +1,93 @@
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+	<title>HESK setup script: 3.7.10</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link href="hesk_style.css?3.7.10" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.5.1.min.js?3.7.10"></script>
+	<script type="text/javascript" src="hesk_javascript.js?3.7.10"></script>
+	</head>
+	<body>
+
+	<div align="center">
+	<table border="0" cellspacing="0" cellpadding="5" class="enclosing">
+	<tr>
+	<td>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+		<td width="3"><img src="img/headerleftsm.jpg" width="3" height="25" alt="" /></td>
+		<td class="headersm">HESK setup script: 3.7.10</td>
+		<td width="3"><img src="img/headerrightsm.jpg" width="3" height="25" alt="" /></td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+	<tr>
+	<td>
+
+        <div class="main__content notice-flash ">
+        <div role="alert" class="notification orange">
+            <b>Important:</b> <a href="../docs/index.html">Read installation guide</a> before using this setup script!        </div>
+    </div>
+	
+    <div align="center">
+	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+		<td width="7" height="7"><img src="img/roundcornerslt.jpg" width="7" height="7" alt="" /></td>
+		<td class="roundcornerstop"></td>
+		<td><img src="img/roundcornersrt.jpg" width="7" height="7" alt="" /></td>
+	</tr>
+	<tr>
+		<td class="roundcornersleft">&nbsp;</td>
+		<td>
+	
+	<h3>Update database tables</h3>
+
+	<br />
+	    <div class="main__content notice-flash ">
+        <div role="status" class="notification green">
+            <b>Success:</b> Congratulations, your HESK has been updated to 3.7.10        </div>
+    </div>
+	
+        <div class="main__content notice-flash ">
+        <div role="status" class="notification green">
+            <b>Success:</b> Language files updated        </div>
+    </div>
+	
+    <h3>Things to do next:</h3>
+
+    <ol>
+
+    <li><span style="color:#ff0000">Delete the <b>/install</b> folder from your server!</span><br />&nbsp;</li>
+
+    <li>Login to HESK administration panel and make sure everything works fine.<br /><br />
+
+	<form action="../021lm3dntgmirqrs/admin_main.php" method="get">
+	<input type="submit" value="Continue to admin panel &raquo;" class="orangebutton" onmouseover="hesk_btn(this,'orangebuttonover');" onmouseout="hesk_btn(this,'orangebutton');" /></p>
+	</form>
+
+    </li>
+
+    </ol>
+
+    <p>&nbsp;</p>
+
+			</td>
+		<td class="roundcornersright">&nbsp;</td>
+	</tr>
+	<tr>
+		<td><img src="img/roundcornerslb.jpg" width="7" height="7" alt="" /></td>
+		<td class="roundcornersbottom"></td>
+		<td width="7" height="7"><img src="img/roundcornersrb.jpg" width="7" height="7" alt="" /></td>
+	</tr>
+	</table>
+    </div>
+
+	<p style="text-align:center"><span class="smaller">&nbsp;<br />Powered by <a href="https://www.hesk.com" class="smaller" title="Free PHP Help Desk Software">Help Desk Software</a> <b>HESK</b></span></p>
+	</td>
+	</tr>
+	</table>
+	</div>
+	</body>
+	</html>
+	

@@ -1,0 +1,5 @@
+.notification a.btn-full {
+    width: fit-content !important;
+    color: var(--btn_full_clr) !important;
+    text-decoration: none !important;
+}

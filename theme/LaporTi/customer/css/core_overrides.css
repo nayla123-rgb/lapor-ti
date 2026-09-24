@@ -1,0 +1,133 @@
+/*
+This file should only be used by hesk clients to apply any custom overwrites to core files,
+and ensure these changes are included in the bundled css.
+
+Please only change this file if you know what you are doing.
+Any general thematic changes should rather be done as part of /theme changes of theme_overrides.css
+*/
+
+.cust-help .header {
+  box-shadow: 0 10px 24px rgba(10, 32, 51, 0.12);
+}
+
+.cust-help .header__inner {
+  gap: 20px;
+}
+
+.cust-help .header__logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 0;
+}
+
+.cust-help .header__logo-image {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.cust-help .site-navbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.cust-help .site-navbar::-webkit-scrollbar {
+  display: none;
+}
+
+.cust-help .site-navbar__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: #edf6fb;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+  transition:
+    background-color 150ms ease,
+    border-color 150ms ease,
+    color 150ms ease;
+}
+
+.cust-help .site-navbar__link:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.cust-help .site-navbar__link.is-active {
+  color: #133e5e;
+  background-color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.cust-help .header__controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.cust-help .header__controls .header__nav {
+  margin: 0;
+  flex-grow: 0;
+}
+
+.cust-help .header__controls .header__lang {
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .cust-help .header__inner {
+    flex-wrap: wrap;
+    padding: 10px 0;
+    gap: 12px;
+  }
+
+  .cust-help .site-navbar {
+    order: 3;
+    flex-basis: 100%;
+    padding-bottom: 2px;
+  }
+
+  .cust-help .site-navbar__link {
+    padding: 9px 12px;
+  }
+
+  .cust-help .header__controls {
+    margin-left: 0;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .cust-help .header__controls {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .cust-help .header__controls .header__nav {
+    min-width: 0;
+  }
+
+  .cust-help .header__controls .header__nav .nav-item:not(:first-child) {
+    margin-left: 12px;
+  }
+
+  .cust-help .site-navbar__link {
+    font-size: 12px;
+  }
+}
